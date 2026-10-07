@@ -1,7 +1,0 @@
-{
-  // Add your existing config fields here (name, main, compatibility_date, etc.)
-  "vars": {
-    "VITE_SUPABASE_URL": "https://phphsunfaieswrsuavoc.supabase.co",
-    "VITE_SUPABASE_ANON_KEY": "sb_publishable_BKwf0fTcnrYVJY1fNNwukw_QurQj4Wa"
-  }
-}
