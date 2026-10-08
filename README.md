@@ -6,10 +6,10 @@ A small, responsive React task manager with Supabase email/password authenticati
 
 ```sh
 npm install
-cp .env.example .env.local
+cp .env.example .env
 ```
 
-Add your Supabase anon/publishable key as `VITE_SUPABASE_ANON_KEY` in `.env.local`, run the SQL setup below, then start the app:
+Add your Supabase anon/publishable key as `VITE_SUPABASE_ANON_KEY` in `.env`, run the SQL setup below, then start the app:
 
 ```sh
 npm run dev

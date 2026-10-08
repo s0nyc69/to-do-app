@@ -74,7 +74,7 @@ function AuthScreen({ auth }) {
 
         {!isSupabaseConfigured && (
           <div className="auth-notice" role="status">
-            Füge deinen Supabase-Anon-Key zu `.env.local` hinzu, damit der Konto-Zugang aktiviert wird.
+            Füge deinen Supabase-Anon-Key zu `.env` hinzu, damit der Konto-Zugang aktiviert wird.
           </div>
         )}
         {auth.error && (

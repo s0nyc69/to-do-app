@@ -1,7 +1,7 @@
 import { supabase } from '../lib/supabase.js'
 
 function requireClient() {
-  if (!supabase) throw new Error('Supabase is not configured. Add your anon key to .env.local.')
+  if (!supabase) throw new Error('Supabase is not configured. Add your anon key to .env.')
   return supabase
 }
 
